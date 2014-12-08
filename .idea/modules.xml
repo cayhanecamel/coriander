@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/coriander.iml" filepath="$PROJECT_DIR$/coriander.iml" />
-      <module fileurl="file://$PROJECT_DIR$/coriander/coriander-coriander.iml" filepath="$PROJECT_DIR$/coriander/coriander-coriander.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coriander/coriander.iml" filepath="$PROJECT_DIR$/coriander/coriander.iml" />
       <module fileurl="file://$PROJECT_DIR$/coriander-sample/coriander-sample.iml" filepath="$PROJECT_DIR$/coriander-sample/coriander-sample.iml" />
     </modules>
   </component>
