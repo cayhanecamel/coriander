@@ -6,7 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import coriander.cayhanecamel.jp.coriander.R;
 import jp.cayhanecamel.coriander.DeviceUtils;
 
 
@@ -16,7 +15,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(getApplicationContext(), DeviceUtils.test(), Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), String.valueOf(DeviceUtils.getHeightPx(this)), Toast.LENGTH_LONG).show();
     }
 
 
